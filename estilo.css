@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color1:#141414;
+    --color2:#1b6b46;
+    --color3:#ffffff;
+    --color4:#f5c9ec;
+    --color5:#b8e5ff;
+    background-color: var(--color3);
+}
+main{
+    width:850px;
+    background-color: var(--color3);
+    margin: auto;
+    border:1px solid var(--color1);
+}
+#cabecera{
+    border: 1px solid var(--color1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+    display: flex;
+    flex-direction:row;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+}
+.principal{
+    text-decoration: none;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+}
+.principal span{
+    font-size: medium;
+    text-decoration: wavy;
+    color: var(--color2);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal span:hover{
+   background-color: var(--color2);
+   color: var(--color3);
+   font-size: 30px;
+}
+.principal a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: var(--color1);
+}
+#locatiton{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 70%;
+}
+#locatiton img{
+    width: 10%;
+    margin-left: 10px;
+}
+#ingreso a{
+    border-radius: 5px;
+    border: 2px solid var(--color1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--color1);
+    display: flex;
+    flex-direction: row;
+}
+#ingreso2 a{
+    border-radius: 20px;
+    border: 2px solid var(--color1);
+    background-color: var(--color1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: var(--color3);
+}
+#contenedor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--color4);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cont1{
+    width: 70%;
+    margin-left: 0px;
+}
+.text1{
+    background-color: var(--color4);
+    border: 10px solid var(--color4);
+    width: 80%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text1 h3{
+    background-color: var(--color4);
+    color:var(--color2);
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+.text1 p{
+    color: var(--color2);
+    background-color: var(--color4);
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+.text1 a{
+    border-radius: 20px;
+    border: 10px solid var(--color2);
+    text-decoration:none;
+    margin:30%;
+    color: var(--color3);
+    background-color: var(--color2);
+    font-weight: bold;
+    align-items: center;
+}
+#cont2{
+    margin-bottom: 10px;
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#banner{
+    background-color: var(--color5);
+}
+.text{
+    background-color: var(--color5);
+    border: 10px solid var(--color5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    align-items: center;
+    float: inline-start;
+}
+.text h3{
+    background-color: var(--color5);
+    color:var(--color2);
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+.text p{
+    color: var(--color2);
+    background-color: var(--color5);
+    font-size: 15px;
+    text-align: center;
+    flex-direction: column;
+}
+.text a{
+    border-radius: 20px;
+    border: 10px solid var(--color2);
+    text-decoration:none;
+    color: var(--color3);
+    background-color: var(--color2);
+    font-weight: bold;
+}
+#cont2 img{
+    width:60%;
+    background-color: var(--color5);
+    float: inline-end;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+li{
+    list-style-type: none;
+    align-content: center;
+    margin:5px;
+}
+#pie{
+    display:flex;
+    flex-direction: row;
+    align-items: space-evenly;
+}
+#pie img{
+    width: 5%;
+    align-items: center;
+    margin: 10px;
+    align-content: space-evenly;
+}
+#pie3 p{
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+}
